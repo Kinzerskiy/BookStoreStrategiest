@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AFC00052C49815F00199EE0 /* BookCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC00042C49815E00199EE0 /* BookCategory.swift */; };
+		3AFC00072C49826F00199EE0 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC00062C49826F00199EE0 /* Author.swift */; };
+		3AFC00092C49839700199EE0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC00082C49839700199EE0 /* Book.swift */; };
+		3AFC000B2C49858F00199EE0 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC000A2C49858F00199EE0 /* Sale.swift */; };
+		3AFC000D2C49897100199EE0 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC000C2C49897100199EE0 /* Expense.swift */; };
+		3AFC00102C498DF800199EE0 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC000F2C498DF800199EE0 /* SalesViewModel.swift */; };
+		3AFC00172C49942900199EE0 /* DailyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC00162C49942900199EE0 /* DailyChartView.swift */; };
+		3AFC00192C49944B00199EE0 /* WeeklyChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC00182C49944B00199EE0 /* WeeklyChartsView.swift */; };
+		3AFC001B2C49945D00199EE0 /* MonthlyChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC001A2C49945D00199EE0 /* MonthlyChartsView.swift */; };
+		3AFC001D2C49996C00199EE0 /* SimpleBookSalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC001C2C49996C00199EE0 /* SimpleBookSalesView.swift */; };
+		3AFC001F2C49B5F700199EE0 /* DetailBookSalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC001E2C49B5F700199EE0 /* DetailBookSalesView.swift */; };
 		3AFCFFF52C49814600199EE0 /* BookStoreStrategiestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFF42C49814600199EE0 /* BookStoreStrategiestApp.swift */; };
 		3AFCFFF72C49814600199EE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFF62C49814600199EE0 /* ContentView.swift */; };
 		3AFCFFF92C49814800199EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFFF82C49814800199EE0 /* Assets.xcassets */; };
@@ -14,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AFC00042C49815E00199EE0 /* BookCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCategory.swift; sourceTree = "<group>"; };
+		3AFC00062C49826F00199EE0 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		3AFC00082C49839700199EE0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3AFC000A2C49858F00199EE0 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		3AFC000C2C49897100199EE0 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		3AFC000F2C498DF800199EE0 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
+		3AFC00162C49942900199EE0 /* DailyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChartView.swift; sourceTree = "<group>"; };
+		3AFC00182C49944B00199EE0 /* WeeklyChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChartsView.swift; sourceTree = "<group>"; };
+		3AFC001A2C49945D00199EE0 /* MonthlyChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyChartsView.swift; sourceTree = "<group>"; };
+		3AFC001C2C49996C00199EE0 /* SimpleBookSalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBookSalesView.swift; sourceTree = "<group>"; };
+		3AFC001E2C49B5F700199EE0 /* DetailBookSalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookSalesView.swift; sourceTree = "<group>"; };
 		3AFCFFF12C49814600199EE0 /* BookStoreStrategiest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStoreStrategiest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFCFFF42C49814600199EE0 /* BookStoreStrategiestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreStrategiestApp.swift; sourceTree = "<group>"; };
 		3AFCFFF62C49814600199EE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +55,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AFC00032C49815200199EE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC00042C49815E00199EE0 /* BookCategory.swift */,
+				3AFC00062C49826F00199EE0 /* Author.swift */,
+				3AFC00082C49839700199EE0 /* Book.swift */,
+				3AFC000A2C49858F00199EE0 /* Sale.swift */,
+				3AFC000C2C49897100199EE0 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AFC000E2C498DC700199EE0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC000F2C498DF800199EE0 /* SalesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3AFC00112C4993B100199EE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC00152C4993F800199EE0 /* ExpensesStats */,
+				3AFC00142C4993E500199EE0 /* BookCategoryStats */,
+				3AFC00132C4993CE00199EE0 /* WeekdayStats */,
+				3AFC00122C4993BE00199EE0 /* SalesStats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AFC00122C4993BE00199EE0 /* SalesStats */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC001C2C49996C00199EE0 /* SimpleBookSalesView.swift */,
+				3AFC001E2C49B5F700199EE0 /* DetailBookSalesView.swift */,
+				3AFC00162C49942900199EE0 /* DailyChartView.swift */,
+				3AFC00182C49944B00199EE0 /* WeeklyChartsView.swift */,
+				3AFC001A2C49945D00199EE0 /* MonthlyChartsView.swift */,
+			);
+			path = SalesStats;
+			sourceTree = "<group>";
+		};
+		3AFC00132C4993CE00199EE0 /* WeekdayStats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WeekdayStats;
+			sourceTree = "<group>";
+		};
+		3AFC00142C4993E500199EE0 /* BookCategoryStats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BookCategoryStats;
+			sourceTree = "<group>";
+		};
+		3AFC00152C4993F800199EE0 /* ExpensesStats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExpensesStats;
+			sourceTree = "<group>";
+		};
 		3AFCFFE82C49814600199EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +140,9 @@
 			children = (
 				3AFCFFF42C49814600199EE0 /* BookStoreStrategiestApp.swift */,
 				3AFCFFF62C49814600199EE0 /* ContentView.swift */,
+				3AFC00112C4993B100199EE0 /* Views */,
+				3AFC000E2C498DC700199EE0 /* ViewModels */,
+				3AFC00032C49815200199EE0 /* Model */,
 				3AFCFFF82C49814800199EE0 /* Assets.xcassets */,
 				3AFCFFFA2C49814800199EE0 /* BookStoreStrategiest.entitlements */,
 				3AFCFFFB2C49814800199EE0 /* Preview Content */,
@@ -139,7 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFC001B2C49945D00199EE0 /* MonthlyChartsView.swift in Sources */,
+				3AFC000D2C49897100199EE0 /* Expense.swift in Sources */,
+				3AFC00052C49815F00199EE0 /* BookCategory.swift in Sources */,
 				3AFCFFF72C49814600199EE0 /* ContentView.swift in Sources */,
+				3AFC001D2C49996C00199EE0 /* SimpleBookSalesView.swift in Sources */,
+				3AFC00102C498DF800199EE0 /* SalesViewModel.swift in Sources */,
+				3AFC00072C49826F00199EE0 /* Author.swift in Sources */,
+				3AFC00172C49942900199EE0 /* DailyChartView.swift in Sources */,
+				3AFC00192C49944B00199EE0 /* WeeklyChartsView.swift in Sources */,
+				3AFC00092C49839700199EE0 /* Book.swift in Sources */,
+				3AFC000B2C49858F00199EE0 /* Sale.swift in Sources */,
+				3AFC001F2C49B5F700199EE0 /* DetailBookSalesView.swift in Sources */,
 				3AFCFFF52C49814600199EE0 /* BookStoreStrategiestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
